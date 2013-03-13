@@ -1,12 +1,12 @@
 d:war/
 d:data
-a:data/50CalFire1.wav
 i:data/AABackground.png
 i:data/AAShooting.png
 i:data/BattleShips.png
 i:data/BSBackground.png
 i:data/DDBackground.png
 i:data/DungeonDash.png
+a:data/Fire.wav
 t:data/font.fnt
 i:data/font.png
 i:data/icon.png
@@ -16,3 +16,5 @@ i:data/PainkillerHD.png
 i:data/PKAlastor.png
 i:data/PKBackground.png
 i:data/projectiles.png
+a:data/Roar.wav
+a:data/Swish.wav
