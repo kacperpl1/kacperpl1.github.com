@@ -5,6 +5,7 @@ i:data/AAShooting.png
 i:data/arrows.png
 i:data/BattleShips.jpg
 i:data/BSBackground.jpg
+b:data/CV-EN.pdf
 i:data/CV-EN.png
 i:data/DDBackground.jpg
 i:data/DungeonDash.jpg
