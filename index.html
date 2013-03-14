@@ -2,9 +2,6 @@
 <html>
 	<head>
 	<link rel="shortcut icon" href="assets/data/favicon.ico" />
-		<script type="text/javascript">
-			preload('assets/data/BattleShips.jpg,assets/data/PainkillerHD.jpg,assets/data/MOHAA.jpg,assets/data/DungeonDash.jpg,assets/data/BSBackground.jpg');
-		</script>
 		<title>KACPER ZĄBER - THE GAME MECHANIC</title>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<style>
@@ -23,12 +20,8 @@
 			</div>
 		</div>
 		<div style="height: 720px ">
-			<div style="z-index: 1; position: absolute; top: 96px; left: 50%; margin-left: -540px; width:1080px; height:720px" >
-				<img border="1" src="assets/data/BattleShips.jpg" style="position: absolute; top: 1%; left: 0.5%; width:32%; height:23%">
-				<img border="1" src="assets/data/PainkillerHD.jpg" style="position: absolute; top: 26%; left: 0.5%; width:32%; height:23%">
-				<img border="1" src="assets/data/MOHAA.jpg" style="position: absolute; top: 51%; left: 0.5%; width:32%; height:23%">
-				<img border="1" src="assets/data/DungeonDash.jpg" style="position: absolute; top: 76%; left: 0.5%; width:32%; height:23%">
-				<img border="1" src="assets/data/BSBackground.jpg" style="position: absolute; top: 1%; left: 34%; width:65%; height:98%">
+			<div style="z-index: 1; position: absolute; top: 96px; left: 50%; margin-left: -540px; width:1080px; height:720px; background-color:black" >
+				<img border="1" src="assets/data/loading.gif" style="position: absolute; top: 50%; left: 50%; margin-top: -24px; margin-left: -24px">
 			</div>
 			<div style="z-index: 2; position: absolute; top: 96px; left: 50%; margin-left: -540px;" id="embed-com.portfolio.game.GwtDefinition"></div>
 		</div>
@@ -42,18 +35,6 @@
 	</body>
 	
 	<script>
-		function preload(images) {
-			if (document.images) {
-				var i = 0;
-				var imageArray = new Array();
-				imageArray = images.split(',');
-				var imageObj = new Image();
-				for(i=0; i<=imageArray.length-1; i++) {
-					//document.write('<img src="' + imageArray[i] + '" />');// Write to page (uncomment to check images)
-					imageObj.src=imageArray[i];
-				}
-			}
-		}
 	
 		function handleMouseDown(evt) {
 		  evt.preventDefault();

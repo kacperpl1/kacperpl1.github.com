@@ -2,8 +2,10 @@ d:war/
 d:data
 i:data/AABackground.jpg
 i:data/AAShooting.png
+i:data/arrows.png
 i:data/BattleShips.jpg
 i:data/BSBackground.jpg
+i:data/CV-EN.png
 i:data/DDBackground.jpg
 i:data/DungeonDash.jpg
 b:data/favicon.ico
@@ -11,6 +13,8 @@ a:data/Fire.wav
 t:data/font.fnt
 i:data/font.png
 i:data/icon.png
+i:data/imp_sprites.png
+i:data/loading.gif
 i:data/MOHAA.jpg
 i:data/muzzleFlash.png
 i:data/PainkillerHD.jpg
