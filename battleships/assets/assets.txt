@@ -1,10 +1,13 @@
 d:war/
 d:data
 i:data/base.png
+b:data/BattleShips.tmx
 b:data/BattleShipsCollision.tmx
+i:data/Buildings.png
 i:data/color.png
 t:data/font.fnt
 i:data/font.png
+i:data/Ground.png
 i:data/HealthBar.png
 i:data/icon.png
 i:data/inventory.png
